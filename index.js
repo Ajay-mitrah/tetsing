@@ -32,4 +32,9 @@ app.post('/api/data', (req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 Server is running on port ${PORT}`);
   console.log(`📱 Open http://localhost:${PORT} in your browser`);
+  console.log(`🔗 Open http://localhost:${PORT}/health in your browser`);
+  console.log(`Second Commit`);
+  console.log(`Third Commit`);
 });
+
+
