@@ -40,7 +40,7 @@ app.listen(PORT, () => {
   console.log(`Fourth Child`);;;
   console.log(`Fifth Child`);
   console.log(`Sixth Child`);
-  console.log(`Seventh Child from main`);
+  console.log(`Seventh Child`);
 });
 
 
