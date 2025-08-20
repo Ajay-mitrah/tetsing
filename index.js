@@ -24,7 +24,7 @@ app.post('/api/data', (req, res) => {
   res.json({
     success: true,
     data: { name, message },
-    receivedAt: new Date().toISOString()
+    receivedAt: new Date().toISOString(),
   });
 });
 
